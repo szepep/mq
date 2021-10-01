@@ -7,5 +7,8 @@ import org.springframework.boot.runApplication
 class ProducerApplication
 
 fun main(args: Array<String>) {
+
+    val msg = com.szepep.mq.proto.MessageProto.Message.newBuilder()
+
     runApplication<ProducerApplication>(*args)
 }
