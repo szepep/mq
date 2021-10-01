@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package model;
+
+option java_package = "com.szepep.mq.proto";
+option java_outer_classname = "MessageProto";
+
+
+message Message {
+  int32 id = 1;
+  string message = 2;
+}
